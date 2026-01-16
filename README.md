@@ -10,3 +10,6 @@
 - Created footer
 
 - Create login page
+- protected routes 
+- logout
+- profile page
