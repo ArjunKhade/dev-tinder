@@ -11,9 +11,9 @@ const Body = () => {
   // fetch user and if user is not valid then redirect to login
 const fetchUser = async () => {
   try {
-    const data = await fetch(BASE_URL + "profile/view");
-    const json = await data.json();
-    console.log(json);
+    // const data = await fetch(BASE_URL + "profile/view");
+    // const json = await data.json();
+    // console.log(json);
 
   } catch (error) {
     console.log(error);
