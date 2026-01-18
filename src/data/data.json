@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "firstname": "Virat",
+    "lastname": "Kohli",
+    "about": "One of the greatest modern-day batsmen, known for consistency and aggressive leadership.",
+    "photourl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDN_x3qsMAqlbRhBpGwv44hqQphdGCvCQkGD4hTuAww4EhMOVJyT2l55-hj2WMNBfit5ExLhwCdozA9eD-Ae2yCsqtFAoTvzu23yt80uCWrQ&s=10",
+    "skills": ["Batting", "Cover Drive", "Leadership", "Fitness"]
+  },
+  {
+    "id": 2,
+    "firstname": "Sachin",
+    "lastname": "Tendulkar",
+    "about": "Legendary cricketer known as the God of Cricket with numerous international records.",
+    "photourl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin_Tendulkar.jpg",
+    "skills": ["Batting", "Technique", "Consistency", "Records"]
+  },
+  {
+    "id": 3,
+    "firstname": "MS",
+    "lastname": "Dhoni",
+    "about": "Former Indian captain famous for calm leadership and finishing skills.",
+    "photourl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MS_Dhoni.jpg",
+    "skills": ["Wicket Keeping", "Finishing", "Captaincy", "Decision Making"]
+  },
+  {
+    "id": 4,
+    "firstname": "Rohit",
+    "lastname": "Sharma",
+    "about": "Explosive opening batsman known for elegant stroke play and multiple double centuries.",
+    "photourl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rohit_Sharma.jpg",
+    "skills": ["Opening Batting", "Pull Shot", "Timing", "Leadership"]
+  },
+  {
+    "id": 5,
+    "firstname": "Jasprit",
+    "lastname": "Bumrah",
+    "about": "World-class fast bowler known for deadly yorkers and match-winning spells.",
+    "photourl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jasprit_Bumrah.jpg",
+    "skills": ["Fast Bowling", "Yorkers", "Death Overs", "Accuracy"]
+  }
+]
