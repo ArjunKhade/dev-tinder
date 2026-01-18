@@ -1,8 +1,18 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom';
+import { removeUser } from '../store/appSlice';
 
 const Navbar = () => {
+
+  const dispatch = useDispatch();
+
+
+  const handleLogout = ()=>{
+    // handle the logout logic here
+    console.log("LogOut")
+    dispatch(removeUser());
+  }
 
   const user = useSelector((store) => store.user);
   return (
@@ -39,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/login"}>Logout</Link>
+                <Link to={"/login"} onClick={handleLogout} >Logout</Link>
               </li>
             </ul>
           </div>
