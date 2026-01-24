@@ -11,7 +11,7 @@ const Feed = () => {
   const feed = useSelector((store) => store.feed);
 
   const getFeed = async () => {
-    if (feed) return;
+    // if (feed) return;
     try {
       // const data = await fetch(FEED_URL);
       // const json = await data.json();
@@ -26,7 +26,9 @@ const Feed = () => {
     getFeed();
   }, []);
 
-  return <div className="flex justify-center my-2">
+  if(feed && feed.length <= 0) return <h1>No new Request Found!!</h1>
+
+  return feed && <div className="flex justify-center my-2">
     <UserCard user={ feed && feed[0]}/>
   </div>;
 };
